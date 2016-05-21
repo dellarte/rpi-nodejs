@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -d -P -v ${HOME}/docker/data/nodejs:/data dellarte/rpi-nodejs /bin/bash -c "nodemon -e js,html --ignore logs/ --ignore static/js/ app.js 2>logs/app.error"
