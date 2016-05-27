@@ -22,6 +22,8 @@ ENV PATH /node-$NODEJS_VER-$NODEJS_OS-$NODEJS_ARCH/bin:$PATH
 
 RUN npm install --global nodemon && \
 npm install --global express && \
+npm install --global ejs && \
+npm install --global compression && \
 npm install --global fs && \
 npm install --global morgan && \
 npm install --global file-stream-rotator && \
